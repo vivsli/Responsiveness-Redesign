@@ -1,1 +1,264 @@
 /* Put your style information here! */
+
+body {
+    background-color:rgb(31, 82, 107);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+
+}
+
+div {
+    display: inline-block;
+
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media only screen and (max-width: 665px) {
+    h1 {
+        font-size: 20px !important;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .all-staff {
+        font-size: 10px;
+    }
+}
+
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.bg-main {
+    background-color:rgb(31, 82, 107);
+}
+
+.navbar-center{
+    display: flex;
+    justify-content: center;
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-geninfo{
+    color: #fff;
+    background-color:rgb(102,102,255);
+    border-color: rgb(102,102,255);
+}
+
+.btn-announcements {
+    color: #fff;
+    background-color:rgb(0,170,204);
+    border-color: rgb(0,170,204);
+}
+
+.btn-schedule{
+    color:  #fff;
+    background-color: rgb(154,73,173);
+    border-color: rgb(154,73,173);
+}
+
+.btn-classmats {
+    color:  #fff;
+    background-color: rgb(115,115,230);
+    border-color: rgb(115,115,230);
+}
+
+.btn-reflinks {
+    color:  #fff;
+    background-color: rgb(84,192,255);
+    border-color: rgb(84,192,255);
+}
+
+.section {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.BigFlower {
+ text-align: center;
+}
+.small-flower {
+    height: 15%;
+    width: 15%;
+    padding:5px;
+}
+
+.box{  
+    border: 5px solid #b9b9b9; 
+    padding: 5%;
+    margin: 5%;
+}
+
+.welcometo{
+    color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.class-code {
+    color: white;
+}
+
+.class-name {
+    color: rgb(151, 231, 231)
+}
+
+.asterisk {
+    color: white;
+
+}
+
+.learn-more {
+    height: 25%;
+    width: 25%;
+}
+
+
+.geninfo-background {
+    background-color: pink;
+}
+
+.geninfo-title {
+    color: rgb(52, 97, 223);
+    text-shadow: -3px 4px #c8eeff;
+
+}
+
+.instructors{
+    color: white;
+    text-decoration:underline;
+    font-weight: 400;
+}
+
+
+.instructor-image {
+    
+}
+.photos {
+    padding: 35px;
+}
+
+.all-staff {
+    color:rgb(103, 122, 230);
+}
+
+.link {
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.announcements-background {
+    background-color: rgb(182, 238, 238);
+}
+
+.announcements-title {
+    color: rgb(115, 41, 199);
+    text-shadow: -3px 4px #c1b1e0;
+    padding: 15px;
+}
+
+.announcements-image {
+    padding-bottom: 20px;
+}
+
+
+.schedule-background {
+    background-color: rgb(92, 180, 154) ;
+}
+
+.schedule-title {
+    color: rgb(255, 255, 255);
+    text-shadow: -3px 4px #1c49a8;
+    padding: 15px;
+}
+
+.schedule-image {
+    padding-bottom: 20px;
+}
+
+.classmats-background {
+    background-color: rgb(131, 109, 160);
+}
+
+.classmats-title {
+    color: rgb(175, 232, 255);
+    text-shadow: -3px 4px #294a91;
+    padding: 15px;
+}
+
+.classmats-image {
+    padding-bottom: 20px;
+}
+
+.reflinks-background {
+    background-color: rgb(134, 182, 255);
+}
+
+.reflinks-title {
+    color: rgb(255, 255, 255);
+    text-shadow: -3px 4px #012c88;
+    padding: 15px;
+}
+
+.ref-stuff {
+    justify-content: space-between;
+
+
+}
+.textbook {
+    color: blue;
+    text-decoration: underline;
+    padding: 1%;
+}
+
+.syllabus {
+    color: red;
+    text-decoration: underline;
+    padding: 1%;
+}
+
+.gradescope {
+    color: purple;
+    text-decoration: underline;
+    padding: 1%;
+}
+
+.piazza {
+    color: green;
+    text-decoration: underline;
+    padding: 1%;
+}
+
+
+

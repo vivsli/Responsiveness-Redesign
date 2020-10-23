@@ -1,14 +1,192 @@
 <!doctype html>
 
-<html>
-  <head>
-    <title>INSERT TITLE HERE!</title>
-    <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-  </head>
+<html lang="en">
 
-  <body>
-    <!-- TODO: put your HTML code here! -->
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>CS 121</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+
+  <!-- TODO: put your HTML code here! -->
+  <div class="navbar-center navbar-ipad">
+    <nav class="navbar navbar-expand-lg navbar-light bg-main ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <div class="mr-4 mt-1">
+              <button type="button" class="btn btn-geninfo">General Info</button>
+              <button type="button" class="btn btn-geninfo dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="mr-4 mt-1">
+              <button type="button" class="btn btn-announcements">Announcements</button>
+              <button type="button" class="btn btn-announcements dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="mr-4 mt-1">
+              <button type="button" class="btn btn-schedule">Schedule</button>
+              <button type="button" class="btn btn-schedule dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="mr-4 mt-1">
+              <button type="button" class="btn btn-classmats">Class Materials</button>
+              <button type="button" class="btn btn-classmats dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="mr-4 mt-1">
+              <button type="button" class="btn btn-reflinks">Refs + Links</button>
+              <button type="button" class="btn btn-reflinks dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="flex-column">
+    <div class="box w-75 p-3">
+      <h2 class="welcometo"> WELCOME TO</h2>
+      <h1 class="class-code">Harvard CS 121*</h1>
+      <h3 class="class-name">Introduction to Theoretical Computer Science</h3>
+      <div class="BigFlower flex-column">
+        <img src="images/BigFlower.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="flex-column">
+      <p class="asterisk text-center">*Not to be confused with the superior Brown University website for CSCI1300</p>
+    </div>
+    <div class="text-center">
+      <img src="images/Learn More.png" class="learn-more">
+    </div>
+  </div>
+
+  <div class="section geninfo-background flex-column">
+    <div class="geninfo-title flex-row">
+      <img src="images/GeninfoFlower.png" class="img-fluid small-flower flex-column" alt="Responsive image">
+      <h1 class="flex-column">
+        General Info
+      </h1>
+      <img src="images/GeninfoFlower.png" class="img-fluid small-flower flex-column" alt="Responsive image">
+    </div>
+    <h2 class="instructors">Instructors</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm instructor-image">
+          <img src="images/Instructor 1.png" class=" img-fluid photos">
+        </div>
+        <div class="col-sm instructor-image">
+          <img src="images/Instructor 2.png" class=" img-fluid photos">
+        </div>
+      </div>
+    </div>
+    <h3 class="all-staff">ALL TEACHING STAFF</h3>
+    <h2 class="all-staff link">http://madhu.seas.harvard.edu/courses/Fall2020/staff.pdf</h2>
+  </div>
+
+  <div class="section announcements-background flex-column">
+    <div class="announcements-title flex-row">
+      <img src="images/AnnounceFlower.png" class="img-fluid small-flower flex-column" alt="Responsive image">
+      <h1 class="flex-column">
+        Announcements
+      </h1>
+      <img src="images/AnnounceFlower.png" class="img-fluid small-flower flex-column" alt="Responsive image">
+    </div>
+    <div class="announcements-image">
+      <img src="images/Announcements Box.png" class="img-fluid" alt="Responsive image">
+    </div>
+  </div>
+
+  <div class="section schedule-background flex-column">
+    <div class="schedule-title flex-row">
+      <img src="images/ScheduleFlower.png" class="img-fluid small-flower flex-column" alt="Responsive image">
+      <h1 class="flex-column">
+        Schedule
+      </h1>
+      <img src="images/ScheduleFlower.png" class="img-fluid small-flower flex-column" alt="Responsive image">
+    </div>
+    <div class="schedule-image">
+      <img src="images/Gcal Screenshot.png" class="img-fluid" alt="Responsive image">
+    </div>
+  </div>
+
+  <div class="section classmats-background flex-column">
+    <div class="classmats-title flex-row">
+      <img src="images/ClassMatsFlower.png" class="img-fluid small-flower flex-column" alt="Responsive image">
+      <h1 class="flex-column">
+        Class Materials
+      </h1>
+      <img src="images/ClassMatsFlower.png" class="img-fluid small-flower flex-column" alt="Responsive image">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm classmats-image">
+          <img src="images/Lectures Box.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-sm classmats-image">
+          <img src="images/Sections Box.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-sm classmats-image">
+          <img src="images/Assignments Box.png" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section reflinks-background flex-column">
+    <div class="reflinks-title flex-row">
+      <img src="images/RefLinkFlower.png" class="img-fluid small-flower flex-column" alt="Responsive image">
+      <h1 class="flex-column">
+        Refs + Links
+      </h1>
+      <img src="images/RefLinkFlower.png" class="img-fluid small-flower flex-column" alt="Responsive image">
+    </div>
+    <div class="flex-row ref-stuff">
+      <h2 class="textbook">Textbook</h2>
+      <h2 class="syllabus">Syllabus</h2>
+      <h2 class="gradescope">Gradscope</h2>
+      <h2 class="piazza">Piazza</h2>
+    </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
